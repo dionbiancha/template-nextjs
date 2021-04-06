@@ -1,34 +1,76 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+    Template NextJS
+</h1>
 
-## Getting Started
+<h4 align="center">
+Base template for NextJs projects
+</h4>
+<p align="center">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/dionbiancha/template-nextjs.svg">
 
-First, run the development server:
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/dionbiancha/template-nextjs.svg">
+
+  <a href="https://www.codacy.com/app/dionbiancha/template-nextjs?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=dionbiancha/template-nextjs&amp;utm_campaign=Badge_Grade">
+    <img alt="Codacy grade" src="https://img.shields.io/codacy/grade/1b577a07dda843aba09f4bc55d1af8fc.svg">
+  </a>
+
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/dionbiancha/template-nextjs.svg">
+  <a href="https://github.com/dionbiancha/template-nextjs/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/dionbiancha/template-nextjs.svg">
+  </a>
+
+  <a href="https://github.com/dionbiancha/template-nextjs/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/dionbiancha/template-nextjs.svg">
+  </a>
+
+  <img alt="GitHub" src="https://img.shields.io/github/license/dionbiancha/template-nextjs.svg">
+</p>
+
+<p align="center">
+  <a href="#computer-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#information_source-how-to-use">How To Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-license">License</a>
+</p>
+
+## :computer: Technologies
+
+This project was developed with the following technologies:
+
+- [NextJS][nextjs]
+- [TypeScript][typescript]
+- [Eslint][eslint]
+- [Prettie][prettie]
+
+
+## :information_source: How To Use
+
+To clone and run this application, you'll need [Git](https://git-scm.com) installed on your computer. From your command line:
 
 ```bash
-npm run dev
-# or
-yarn dev
+# Clone this repository
+$ git clone https://github.com/dionbiancha/template-nextjs
+
+# Go into the repository
+$ cd template-nextjs
+
+# Install dependencies
+$ yarn 
+
+# Run the app
+$ yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## :memo: License
+This project is under the MIT license. See the [LICENSE](https://github.com/dionbiancha/template-nextjs/blob/master/LICENSE) for more information.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+---
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Made with :heartpulse: by Dionei Bianchati :wave: [Get in touch!](https://www.linkedin.com/in/dionbiancha/)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
+[nextjs]: https://nextjs.org/
+[prettie]: https://prettier.io/
+[eslint]: https://eslint.org/
+[typescript]: https://www.typescriptlang.org/
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
